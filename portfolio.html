@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel ="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>A</span>yushi.</h1>
+                <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Services</a></li>
+                       <li><a href="#">Portfolio</a></li>
+                       <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+        <div class="header-text">
+            <p><span>Web-Developer.</span></p>
+            <h1 class="h1">Hi, I'm <span>Ayushi Kumbhare </span><br>from Indore</h1>
+        </div>
+        </div>
+    </div>
+
+<!-- ------------------About me--------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Ayushi.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title-1">About me</h1>
+                    <p class="sub-title-2">Targeting Back-end Developer roles with an organization of high repute with a scope of improving knowledge and further career growth. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>-Proficiency in C,C++,Javascript,HTML,CSS<br>,Node.js,Express, and React</li>
+                            <li><span>Databases</span><br>Experience with Databases like Mysql, PostgreSQL, and MangoDB</li>
+                            <li><span>Design & Documentation: </span><br>Proven expertise in design and documentation methods specific to MERN Stack Development</li>
+                            <li><span>DevelopTools: </span><br>IntelliJ, VSCode, Git</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Web Web-Developer Intern, Oasis Infobyte | 242k Followers on Linkedin.</span></li>
+                            <li>-Utilized HTML,CSS,and Javascript to unsure a smooth user experience.</li>
+                            <li>Developed backend and server side programs</li>
+                            <li>Resulting in 30% increase in user engagement and a 25% decrease in bounce rate.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Indore Institute Of Science & Technology, Indore</span><br>Btech(Computer Science and Engineering),2022-2026</li>
+                            <li><span>Course Work</span><br>Data Structure, Design, and Analysis of Algorithms, Operating System, DBMS</li>
+                            <li><span>St.Francis.Hr.Sec.School,Pithampur</span><br>Higher Secondary (12th PCM), 2022  <br>High School(10th), 2020</li>
+                            <li><span>Percentage</span><br>10th- 83.5% <br>12th- 76.5%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--------------------------------Servies--------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title-1">Technical Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming-Language</h2>
+                <p>Proficient in C,C++,Javascript,HTML,CSS,Node.js,Express, and React.</p>
+                <h2>Databases</h2>
+                <p> Experience with databases like MySQL and MangoDB </p>
+            </div>
+            
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Data Structure and algorithm</h2>
+                    <p>Understanding of data Structure and algortithms.
+                    </p>
+                    
+                </div>
+                
+                <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Design and Documentation </h2>
+                <p>Proven expertise in Design and documentation methods specific to MERN Stack development. </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ Portfolio -------------------------------->
+
+<div class="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="Ayushi.jpg" >
+                <div class="layer">
+                    <h3>E-Commerce Website Project</h3>
+                    <p>Features: User authentication, product listing, shooping cart,payment-integration, order-management, admin panel.
+                        Outcome:Deployed fully functional platform with secure transaction and improved user experience.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Ayushi.jpg" >
+                <div class="layer">
+                    <h3>Amazon Clone Project</h3>
+                    <p>Feature: User authentication, product search,cart,chechout,order tracking, admin panel
+                        Outcome:Delivery a fully functional e-commerce platform with a smooth shooping experience andsecure payment
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Ayushi.jpg" >
+                <div class="layer">
+                    <h3>Event Booking Website Project</h3>
+                    <p>Features: Event listings, booking system, user authentication, payment gateways, admin dashboard.
+                        Outcome: Deployed platform allowing seamless event booking and secure payments.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------------------Contact-------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fas fa-paper-plane "></i> ayushi37824@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt "></i>  7837498304</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/
+                    ayushi-kumbhare-2041442a1"><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="ndksldkdf.dkfkd" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" email="Email" placeholder="Your Email ID" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Ayushi. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    </script>
+</body>
+</html>
